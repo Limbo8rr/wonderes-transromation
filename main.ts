@@ -4,7 +4,6 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, l
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
     info.changeScoreBy(3)
-    info.changeLifeBy(-1)
     tiles.setTileAt(location, sprites.dungeon.floorLight2)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
